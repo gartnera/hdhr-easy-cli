@@ -1,0 +1,10 @@
+{
+	"gui": "false",
+	"command": "./hdhomerun_config.exe",
+	"channels": "channels.json",
+	"tuner": "2",
+	"tuner_ip": "192.168.1.2",
+	"my_ip": "192.168.1.3",
+	"my_port": "1234",
+	"vlc" : "C:/Program Files/VideoLAN/VLC/vlc.exe"
+}
