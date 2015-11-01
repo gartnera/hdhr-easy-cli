@@ -11,7 +11,7 @@ These python programs automate a few tedious tasks with the HDHomeRun:
 # Getting Started
 1. Download and compile the hdhomerun_config software from http://www.silicondust.com/support/downloads/linux/
 2. Scan using the hdhomerun_config command, and output the results to a text file
-3. Run parse.py like ./parse.py <scan.txt> <scan.json>
+3. Run parse.py like ./parse.py \<scan.txt\> \<scan.json\>
 4. Modify config.json to match your environment
 5. Run ./stream.py
  
