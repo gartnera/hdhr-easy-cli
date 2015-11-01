@@ -5,7 +5,7 @@ These python programs automate a few tedious tasks with the HDHomeRun:
 * Selecting which channel to view
 * Setting frequency and program based on that selection
 * Setting the target of the UDP stream
-* Opening VLC when the stream starts
+* Opening VLC to recieve the stream when it starts
 * Resetting the tuner after you are finished watching the stream (press enter or close VLC)
 
 # Getting Started
@@ -18,3 +18,4 @@ These python programs automate a few tedious tasks with the HDHomeRun:
 # Notes
 * Only tested on Cygwin on Windows
 * Remove the VLC pair from the JSON to prevent VLC from opening
+* You may need to manually add firewall rules to allow VLC to reciev the stream
