@@ -67,9 +67,15 @@ if conf["gui"] in ['true', 'True']:
 else:
 	print "*** Enter the Channel to Stream ***"
 
-	for i in range(0, len(channels)):
+	for i in range(0, len(channels) - 1, 2):
 		chan = channels[i]
-		print "{}) {} {}".format(i, chan["numb"], chan["name"])
+		chanStr =  "{}) {} {}".format(i, chan["numb"], chan["name"])
+		chanStr = chanStr.ljust(25)
+		print chanStr,
+		j = i + 1
+		chan = channels[j]
+		print "{}) {} {}".format(j, chan["numb"], chan["name"])
+
 
 	print "*** Enter the Channel to Stream ***"
 	choice = input("> ")
